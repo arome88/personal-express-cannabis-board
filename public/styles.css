@@ -1,6 +1,99 @@
 body{
-  background: red;
+  text-align: center;
+  background-attachment: fixed;
+  background-image: url("imgs/ec94a11234030effe2f5e838209680e4.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.fa-trash:hover {
+  color: rgb(225, 27, 27);
+}
+
+.fa-leaf:hover {
+  color: rgb(27, 225, 93);
+}
+
+#green{
+  color:rgb(124, 245, 99);
+}
+#black{
+  color:black;
+}
+#postit{
+  font-family: Noto Sans Mono, Helvetica, sans-serif;
+  margin:0 auto;
+  color:rgb(21, 112, 56);
+  font-size:50px;
+  margin-bottom:-20px;    
+}
+li{
+  font-size:20px;
+  padding:15px;
+  text-align: center;
+}
+p, span{
+  font-family: Noto Sans Mono, Helvetica, sans-serif;
+  font-size:16px;
+  margin: 20px auto;
+  font-weight: bold;
+
+}
+
+p{
+  color: rgb(16, 11, 11);
+}
+
+.form{
+  padding:6%;
+  padding-top:3%;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top:2%;
+  margin:3px auto;
+}
+li{
+  float:left;
+  height:150px;
+  width:86px;
+  margin-left:3.5%;
+  margin-top:2.5%;
+  text-decoration:none;
+  color:#000;
+  background:green;
+  display:block;
+  width:10em;
+  padding:1em;
 }
 h3{
-  margin-top: 40px;
+  font-family: Noto Sans Mono, Helvetica, sans-serif;
+  font-size:30px;
+  margin:2px auto;
+  font-weight: bolder;
+  color: rgb(171, 171, 171);
 }
+textarea{
+  width:60%;
+  height:120px;
+  padding:20px;
+  background:rgb(248, 248, 248);
+  font-weight:100;
+  text-align: center;
+  color:gray;
+  font-size:30px;
+  overflow: scroll;
+  border-radius: 5px;
+  border:1px solid lightgray;
+  box-shadow: 5px 10px 10px rgba(33, 33, 33, 0.473);
+
+}
+button{
+  width:40%;
+  font-weight:400;
+  font-family: Noto Sans Mono, Helvetica, sans-serif;
+  font-size:21px;
+  margin-top:2%;
+  border-radius: 100px;
+} 
